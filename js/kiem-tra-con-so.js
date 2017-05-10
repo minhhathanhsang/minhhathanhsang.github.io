@@ -1,6 +1,6 @@
 $(function()
 {
-  
+  //gggg
   $("#st1,#st2").focusout(function(){
      var regex = /^[0-9]+$/;    // allow only numbers [0-9] 
      if( !regex.test($(this).val()) ) {
